@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mahmood Badr | Portfolio</title>
+  <title>Mahmood Badr</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -12,8 +12,7 @@
     <aside class="sidebar">
       <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-pic"/>
       <h1>Mahmood Badr</h1>
-      <p1>Computer Science Student at UBC</p1>
-
+      <p class="subtitle">Computer Science Student at UBC</p>
       <div class="socials">
         <a href="https://linkedin.com/in/mahmood-badr" class="icon-button" target="_blank">
           <img src="assets/icons/linkedin.svg" alt="LinkedIn"/>
@@ -28,16 +27,15 @@
           <img src="assets/icons/phone.svg" alt="Phone"/>
         </a>
       </div>
-
       <section class="about">
-        <h3>About</h3>
+        <h3<i>About</i></h3>
         <p>
           Computer Science student at the University of British Columbia with hands-on experience in data analysis, machine learning, and development. I enjoy solving real-world problems through data-driven approaches.
         </p>
       </section>
 
       <section class="skills">
-        <h3>Skills</h3>
+        <h3><i>Skills</i></h3>
         <div class="tags">
           <span>Python</span><span>R</span><span>SQL</span><span>Excel</span>
           <span>Tableau</span><span>Power BI</span><span>Java</span><span>Matlab</span>
@@ -48,49 +46,56 @@
     <!-- Right Column -->
     <section class="main-content">
       <section class="education">
-        <h3>Education</h3>
+        <h3><i>Education</i></h3>
         <p><strong>Bachelor’s in Computer Science</strong><br/>University of British Columbia, Sep 2022 – Present</p>
       </section>
 
       <section class="experience">
-        <h3>Experience</h3>
+        <h3><i>Experience</i></h3>
         <div class="item">
-          <h4>Web Developer Student @ SMS Logistics Inc.</h4>
+          <h4>Web Developer Student</h4>
+          <h5>SMS Logistics Inc.</h5>
           <p><em>Feb 2025 – Apr 2025</em></p>
           <ul>
             <li>Developed a fully responsive website to enhance user experience and accessibility</li>
-            <li>Integrated backend databases and optimized performance</li>
+            <li>Applied form validation and secure data handling for efficient input processing</li>
+            <li>Integrated backend databases to store and analyze customer inquiries and logistics data</li>
+            <li>Optimized website performance for fast load times and mobile compatibility</li>
           </ul>
         </div>
 
         <div class="item">
-          <h4>Research Assistant - CS (Hemp Waste Reuse) @ U of Guelph</h4>
+          <h4>Research Assistant - CS (Hemp Waste Reuse)</h4>
+          <h5>University of Guelph</h5>
           <p><em>May 2023 – Aug 2023</em></p>
           <ul>
-            <li>Trained a neural network with over 95% accuracy</li>
-            <li>Produced 6 data visualizations and conducted testing</li>
+            <li>Designed and trained a Neural Network achieving over 95% accuracy in data classification</li>
+            <li>Conducted data augmentation to increase dataset size by 50% improving robustness</li>
+            <li>Implemented software testing techniques to ensure high-quality data processing</li>
+            <li>Produced 6 data visualizations to communicate insights and model performance</li>
           </ul>
         </div>
 
         <div class="item">
-          <h4>Research Assistant - CS (UAV Bird Control) @ U of Guelph</h4>
+          <h4>Research Assistant - CS (UAV Bird Control)</h4>
+          <h5>University of Guelph</h5>
           <p><em>May 2022 – Aug 2022</em></p>
           <ul>
-            <li>Built drone control and recognition features</li>
-            <li>Collaborated on publications and presentations</li>
+            <li>Built data processing and drone management features, with 98% recognition accuracy</li>
+            <li>Carried out image annotation and labeling for training data to enhance accuracy</li>
+            <li>Collaborated with researchers on publication development, submissions, and presentations</li>
           </ul>
         </div>
       </section>
 
       <section class="projects">
-        <h3>Projects</h3>
-
+        <h3><i>Projects</i></h3>
         <div class="card">
           <h4>Product Review Sentiment Analysis</h4>
           <div class="tags">
             <span>Python</span><span>NLP</span><span>Scikit-learn</span>
           </div>
-          <p>Developed an NLP-based sentiment analysis tool using SVM and Random Forest to analyze customer reviews. Created interactive sentiment distributions and word clouds.</p>
+          <p>Built a machine learning pipeline to classify customer sentiment from product reviews using NLP techniques. Trained and optimized Random Forest and SVM models, visualizing key insights with sentiment plots and word clouds.          </p>
         </div>
 
         <div class="card">
@@ -98,7 +103,23 @@
           <div class="tags">
             <span>Power BI</span><span>Excel</span><span>Python</span><span>R</span>
           </div>
-          <p>ETL pipeline for Adidas sales data and created a dashboard with interactive visualizations to support strategic decisions.</p>
+          <p>Created a dynamic sales dashboard by processing Adidas retail data through ETL workflows in Python, Excel, and R. Delivered interactive Power BI reports to uncover revenue trends and support business decision-making.          </p>
+        </div>
+
+        <div class="card">
+          <h4>Canadian Airport Analytics ETL Pipeline</h4>
+          <div class="tags">
+            <span>Python</span><span>SQL</span><span>Airflow</span><span>Plotly</span>
+          </div>
+          <p>Engineered a full ETL pipeline to analyze Canadian airport traffic and delay data using SQL and Python. Automated data ingestion with Airflow and visualized flight trends and seasonality through custom Plotly dashboards.          </p>
+        </div>
+
+        <div class="card">
+          <h4>Travel Journal Web App</h4>
+          <div class="tags">
+            <span>Javascript</span><span>React</span><span>SQLite</span><span>RESTful API</span>
+          </div>
+          <p>Developed a responsive web app for travelers to record and organize location-based journal entries. Leveraged the REST Countries API and SQLite to store, enrich, and visualize user experiences across destinations.          </p>
         </div>
       </section>
     </section>
